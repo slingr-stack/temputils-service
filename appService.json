@@ -1,0 +1,29 @@
+{
+    "label": "Temporary Utilities",
+    "name": "temputils",
+    "apiVersion": "v1",
+    "configurationType": "GLOBAL",
+    "internal": false,
+    "deployment": {
+        "profiles":[
+            {
+                "name": "default",
+                "label": "Default",
+                "memory": 256,
+                "description": "Default configuration"
+            }
+        ],
+        "type": "java11",
+        "allowMultipleInstances": false
+    },
+    "status": "ACTIVE",
+    "stores": [],
+    "events": [],
+    "functions": [
+        {
+            "label": "HMAC-SHA256",
+            "name": "hs256"
+        }
+    ],
+    "configuration":[]
+}
